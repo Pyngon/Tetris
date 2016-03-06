@@ -1,0 +1,32 @@
+#container {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+#canvasTetris {
+  border: 1px solid #c3c3c3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+#canvasTetrisPanel {
+  border: 1px solid #c3c3c3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+#canvasNextPiece {
+  border: 1px solid #c3c3c3;
+}
+
+#controlPanel {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  margin-left: 3px;
+}
